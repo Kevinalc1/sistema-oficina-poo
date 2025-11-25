@@ -6,6 +6,6 @@ class Carro(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     modelo = Column(String, nullable=False)
-    placa = Column(String, unique=true, nullable=False)
+    placa = Column(String, unique=True, nullable=False)
     dono = Column(String, nullable=False)
     problema = Column(String)
