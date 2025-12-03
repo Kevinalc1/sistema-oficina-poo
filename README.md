@@ -17,3 +17,8 @@ Como rodar o projeto
 
 bash
 pip install -r requirements.txt
+
+bash
+uvicorn app.main:app
+
+localhost:8000/docs (swagger)
