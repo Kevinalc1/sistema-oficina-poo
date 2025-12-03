@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from app.database import get_db
-from services import carro_service
+from app.services import carro_service
 
 class CarroInput(BaseModel):
     modelo: str

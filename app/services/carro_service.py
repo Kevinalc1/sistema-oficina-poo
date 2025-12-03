@@ -1,4 +1,4 @@
-from models.carro_model import Carro
+from app.models.carro_model import Carro
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError 
 
